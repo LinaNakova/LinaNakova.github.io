@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Shop</title>
+        <link href="styleAboutMe.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!-- Kopceto e prevzemeno od W3Schools -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+        <div class="nav">
+            <h2 id="Lina">Lina.</h2>
+            <ul class="menu">
+                <a href="AboutMe.html"><li>
+                    About Me 
+                </li></a>
+                <a href="Hobbies.html"><li>
+                    Hobbies
+                </li></a>
+                <a href="Shop.html"><li class="current">
+                    Shop
+                </li></a>
+                <a href="Contact.html"><li>
+                    Contact Me
+                </li></a>
+            </ul>
+        </div>
+        <div class="breadcrumbs">
+            <h3>Shop</h3>
+            <p>Home/About Me/<span>Shop</span></p>
+        </div>
+        <div id="content4">
+            <div>
+                <h1>Welcome!</h1>
+                <p>
+                    This is my shop. You can order anything you see and you can also do custom orders.
+                    If you wish to order, you need to send me the photo you wish to be illustrated.
+                    Contact information is available in the <em>contact me</em> section.Thank you in advance!
+                </p>
+                <div class="illustrations">
+                    <h2>
+                        Portraits
+                    </h2>
+                    <div class="portraits">
+                      
+                            <img src="./photos/anja.jpg" alt="p1" height="330px" width="250px">
+                            <img src="./photos/bday.jpg" alt="p2"  height="330px" width="250px">
+                            <img src="./photos/Sanja.jpg" alt="p3"  height="330px" width="250px">
+                            <img src="./photos/sd.jpg" alt="p4" height="330px" width="250px">
+                            <img src="./photos/tobichristmas.jpg" alt="p5" height="330px" width="250px">
+                            <img src="./photos/birthday.jpg" alt="p6" height="330px" width="250px">
+                    </div>
+                    <h2>Want to explore the detail? Just zoom in!</h2>
+                    <div class="zoom">
+                        <div class="photo1"></div>
+                        <div class="photo2"></div>
+                    </div>
+                    <h2>
+                        Anime
+                    </h2>
+                    <div class="anime">
+                        <img src="./photos/metin-linalovegood.jpg" alt="a1" width="350px" height="350px">
+                        <img src="./photos/final.jpg" alt="a2" width="350px" height="350px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <a href="https://www.copyright.gov/title17/" id="copy">&copy;2021. All Rights Reserved. lina<sup>&reg</sup></a>
+        </footer>
+    </body>
+    </html>

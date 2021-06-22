@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hobbies</title>
+        <link href="styleAboutMe.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!-- Kopceto e prevzemeno od W3Schools -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+        <div class="nav">
+            <h2 id="Lina">Lina.</h2>
+            <ul class="menu">
+                <a href="AboutMe.html"><li>
+                    About Me 
+                </li></a>
+                <a href="Hobbies.html"><li class="current">
+                    Hobbies
+                </li></a>
+                <a href="Shop.html"><li>
+                    Shop
+                </li></a>
+                <a href="Contact.html"><li>
+                    Contact Me
+                </li></a>
+            </ul>
+        </div>
+        <div class="breadcrumbs">
+            <h3>Hobbies</h3>
+            <p>Home/About Me/<span>Hobbies</span></p>
+        </div>
+        <div id="content2">
+            <div class="hobbie">
+                <img alt="painting" src="./photos/viber_image_2021-06-14_19-11-06.jpg" width="200px" height="200px">
+                <h3>Painting</h3>
+                <p>I've pretty much painted all my life. It's the way that I express my feelings and calm myself down.</p>
+            </div>
+            <div class="hobbie">
+                <img alt="illustration" src="./photos/slika.jpg" width="200px" height="200px">
+                <h3>Illustrating</h3>
+                <p>I just recently picked up illustrating, like a year ago, and It's such an amazing way to engage people and bring them in the story. </p>
+            </div>
+            <div class="hobbie">
+                <img alt="canvas" src="./photos/viber_image_2021-06-15_16-17-30.jpg" width="200px" height="200px">
+                <h3>Embroidery</h3>
+                <p>I learned this skill from my grandmother when I was little. Because it has become really popular these days I started practicing agian.</p>
+            </div>
+            <div class="hobbie">
+                <img alt="flowers" src="./photos/viber_image_2021-06-14_22-53-05.jpg" width="200px" height="200px">
+                <h3>Gardening</h3>
+                <p>Gardening is one of the most selfless things that a person can do and I reccomend it to everyone. The earth is our home & we have to maintain it!</p>
+            </div>
+            <div class="hobbie">
+                <img alt="Toby" src="./photos/viber_image_2021-06-14_22-55-35.jpg" width="200px" height="200px">
+                <h3>Pet training</h3>
+                <p>I got interested in pet training when I got a dog 5 years ago. I started learning from youtube and I was a volunteer for 2 months. </p>
+            </div>
+            <div class="hobbie">
+                <img alt="sims" src="./photos/04-11-21_12-04-02 AM.png" width="200px" height="200px">
+                <h3>Gaming</h3>
+                <p>Gaming is a hobby that I enjoy the most. Usually do it when I have free time and I don't have a lot to study. I enjoy playing the sims 4.</p>
+            </div>
+        <div class="comments">
+            <h2>
+                Any suggestions? What should I take on next?
+            </h2>
+            <h3>
+                Leave a comment down below. Looking forward to it!
+            </h3>
+            <form id="f1">
+                <textarea placeholder="Leave a comment here.."></textarea>
+                <button>Delete</button>
+                <button>Post</button>
+            </form>
+        </div>
+        </div>
+        <footer class="footer">
+            <a href="https://www.copyright.gov/title17/" id="copy">&copy;2021. All Rights Reserved. lina<sup>&reg</sup></a>
+        </footer>
+    </body>
+    </html>

@@ -1,0 +1,467 @@
+body{
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eddcd9;
+    margin: 0;
+}
+#content
+{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+.left
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2ebe9;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+.right
+{
+    width: 70%;
+    background-color: #f2ebe9;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-top: 0;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    /* background-color: #f2ebe9; */
+        padding-left: 200px;
+    padding-right: 200px;
+}
+.menu li 
+{
+    display: inline;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #de5499;
+}
+.breadcrumbs
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #f2ebe9;
+        padding-left: 200px;
+    padding-right: 200px;
+    color: #e7aa64;
+    /* font-weight: lighter; */
+
+}
+#lists
+{
+    display: flex;
+    justify-content: center;
+}
+p
+{
+    text-align: justify;
+}
+#Lina
+{
+    /* padding-left: 50px; */
+    color: #de5499;
+}
+.menu li:last-of-type
+{
+    padding-right: 0px;
+}
+.menu
+{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+footer 
+{
+    background-color: #f2ebe9;
+    border-top: 5px solid #e99f4c ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: #de5499;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+img{
+    padding-top: 10px;
+    padding-bottom: 10px ;
+}
+.items
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1b530d;
+    
+}
+br
+{
+    padding-bottom: 10px;
+}
+.right h2
+{
+    color:#1b530d;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.breadcrumbs h3{
+    color: #e99f4c;
+}
+.breadcrumbs span{
+    color: #e99f4c;
+    font-weight: bold;
+}
+.info
+{
+    padding-left: 70px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.menu a:hover
+{
+    font-weight: bolder;
+    text-decoration: none;
+    color: #de5499;
+    
+}
+.menu a:link
+{
+    text-decoration: none;
+    color: #de5499;
+}
+.menu a:visited
+{
+    text-decoration: none;
+    color: #de5499;
+}
+.right h2:first-of-type
+{
+    padding-top: 40px;
+}
+/* ----------------------------------- */
+#content2
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+.hobbie
+{
+    background-color: #f2ebe9; 
+    margin-top: 10px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: #1b530d;
+}
+.hobbie:nth-of-type(2)
+{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.hobbie:nth-of-type(5)
+{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.hobbie:nth-of-type(1)
+{
+margin-top: 0px;
+}
+.hobbie:nth-of-type(2)
+{
+margin-top: 0px;
+}
+.hobbie:nth-of-type(3)
+{
+margin-top: 0px;
+}
+.hobbie h3
+{
+    margin-top: 0;
+    margin-bottom: 5px;
+
+}
+.hobbie p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.comments
+{
+    width: 100%;
+    background-color: #f2ebe9;
+    margin-top: 10px;
+}
+.comments h2
+{
+    color: #de5499;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+.comments h3
+{
+    color: #de5499;
+    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+textarea{
+    display: block;
+}
+#f1
+{
+    border: none;
+}
+/* ----------------------------------- */
+#content3
+{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.container
+{
+    width: 900px;
+    height: 500px;
+    background-image: url(./photos/obicnibrushes.png) ;
+    background-repeat: no-repeat;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid #de5499;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.container h1
+{
+    color: #de5499;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+.container h2
+{
+    color: #1b530d;
+    margin-top: 0px;
+
+}
+.container h1
+{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+textarea
+{
+    height: 100px;
+    width: 100%;
+    display: block;
+}
+form 
+{
+    display: flex;
+    background-color: #f2ebe9;
+    padding: 30px;
+    justify-content: space-around;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 3px solid #de5499;
+}
+#r
+{
+    width: 70%;
+}
+#l
+{
+    width: 30%;
+}
+#Question
+{
+    display: inline;
+}
+#pad
+{
+    padding-top: 10px;
+}
+/* ----------------------------------- */
+#content4
+{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 200px;
+padding-right: 200px;
+padding-bottom: 20px;
+
+}
+#content4 div
+{
+    background-color: #f2ebe9;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#content4 div:last-of-type img
+{
+    padding-bottom: 40px;
+}
+#content4 div p
+{
+font-size: 20px;
+}
+em
+{
+    font-weight: bold;
+    color: #de5499;
+}
+#content4 h1
+{
+    color: #de5499;  
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+#copy
+{
+    text-decoration: none;
+    color: #de5499;
+}
+.flexi
+{
+    display: flex;
+}
+.flexi p
+{
+    padding-right: 20px;
+}
+.flexi h2
+{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+iframe
+{
+    padding-top: 30px;
+    padding-bottom: 20px
+}
+.portraits
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.portraits img:nth-of-type(2)
+{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.illustrations h2
+{
+ padding-left: 65px;
+ color: #de5499;
+ padding-top: 20px;
+}
+.zoom
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: -50px;
+    padding-right: -50px;
+}
+.photo1
+{
+    width: 350px;
+    height: 350px;
+    background-image: url(./photos/kola.jpg);
+    background-position: center;
+    background-size: 90%;
+    cursor: zoom-in;
+    display: inline-block;
+}
+/* Ova mi e trik od Youtube 
+https://www.bing.com/videos/search?q=how+to+make+hover+zoom+in+css&docid=608050696438565174&mid=270CD6E5BF831223F674270CD6E5BF831223F674&view=detail&FORM=VIRE*/
+.photo1:hover 
+{
+    background-size: 150%;
+    background-position: center;
+    transition: 1s;
+}
+.photo2
+{
+    width: 350px;
+    height: 350px;
+    background-image: url(./photos/love.jpg);
+    background-position: center;
+    background-size: 90%;
+    cursor: zoom-in;
+    display: inline-block;
+}
+/* Ova mi e trik od Youtube */
+.photo2:hover 
+{
+    background-size: 150%;
+    background-position:top;
+    transition: 1s;
+}
+.anime
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* Ova za button e od W3Schools */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #de5499;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #e99f4c;
+  }

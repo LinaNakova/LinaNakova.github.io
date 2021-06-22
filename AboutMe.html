@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>About Me</title>
+        <link href="styleAboutMe.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!-- Kopceto e prevzemeno od W3Schools -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+        <div class="nav">
+            <h2 id="Lina">Lina.</h2>
+            <ul class="menu">
+                <a href="AboutMe.html"><li class="current">
+                    About Me 
+                </li></a>
+                <a href="Hobbies.html"><li>
+                    Hobbies
+                </li></a>
+                <a href="Shop.html"><li>
+                    Shop
+                </li></a>
+                <a href="Contact.html"><li>
+                    Contact Me
+                </li></a>
+            </ul>
+        </div>
+        <div class="breadcrumbs">
+            <h3>About me</h3>
+            <p>Home/<span>About Me</span></p>
+        </div>
+        <div id="content">
+            <div class="left">
+               <div class="ME"><img src="./photos/Untitled (1).png" alt="Me" width="270px" height="200px"></div>
+               <div class="info">
+                <span class="items">Born</span>
+                 
+                 7 August 2001
+                 <br>
+                 <br>
+                 <span class="items">Age</span>
+                 
+                 19
+                 <br>
+                 <br>
+                 <span class="items">Nationality</span>
+                
+                 Macedonian
+                 <br>  
+                 <br>
+                 <span class="items">Occupation</span>
+                 
+                 Student/Artist/Content creator
+                 <br><br>
+                 <span class="items">Instagram</span>
+                 
+                @linanakova
+                <br>
+                <br>
+                <span class="items">FaceBook</span>
+                 
+                 Lina Nakova
+                 
+                </div>
+            </div>
+            <div class="right">
+                <h2>About Me</h2>
+                <p id="bio">
+                    Hello! My name is Lina and I come from Stip, Macedonia. I'm a first year student at the <a href="https://finki.ukim.mk/en">Faculty of Computer Science and Engineering.</a>
+                    I'm an organized person that pays attention to detail and creatively solves upcoming problems. I've always been best friends with my computer and that's how I decided on what I'm going to study. 
+                    Even though it is considered to be one of the universities with the toughest programs, I took it on and I'm always focused on what has to be done hoping that I succeed.
+                </p>
+                <div class="flexi">
+                    <div>
+                <h2>Education</h2>
+
+                <p>
+                    I finished elementary school and high school in my home town Stip with a 5.00 gpa and numerous competition prizes in maths, english, chemistry, biology and art.
+                    Although studying computer science wasn't my first choice, I enrolled, started studying and fell in love with it immediately. I like some of the courses more than the others, but I like a good challage.
+                </p>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2964.8209442256452!2d21.40735921539443!3d42.00411817921236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13541443605aa4ab%3A0x33d56647e5b87264!2sFaculty%20of%20Computer%20Science%20%26%20Engineering!5e0!3m2!1sen!2smk!4v1623693605532!5m2!1sen!2smk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            </div>
+
+        </div>
+        <footer class="footer">
+            <a href="https://www.copyright.gov/title17/" id="copy">&copy;2021. All Rights Reserved. lina<sup>&reg</sup></a>
+        </footer>
+    </body>
+    </html>
