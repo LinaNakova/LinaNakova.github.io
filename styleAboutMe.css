@@ -162,10 +162,7 @@ a
 {
     padding-top: 40px;
 }
-.ME
-{
-    transition: 2s;
-}
+
 /* ----------------------------------- */
 #content2
 {
@@ -312,6 +309,7 @@ textarea
     height: 100px;
     width: 100%;
     display: block;
+    border: #de5499 solid 2px;
 }
 form 
 {
